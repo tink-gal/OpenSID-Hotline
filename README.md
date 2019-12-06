@@ -9,4 +9,9 @@
 		$data['hotline'] = $this->hotline_model->isi_hotline();
 setelah 
 	 	$data['widget_keuangan'] = $this->keuangan_grafik_model->widget_keuangan();
+  
+dan lihat baris paling atas
+--> 		$this->load->model('keuangan_grafik_model');
+tambahkan dibawahnya script
+		$this->load->model('hotline_model');
 6. simpan
