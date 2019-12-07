@@ -52,11 +52,8 @@ INSERT INTO `hotline` (`id`, `nama`, `nomer`, `urut`, `created_at`, `created_by`
 -- Indexes for dumped tables
 --
 --
--- Dumping data untuk tabel `setting_modul` dan tabel widget
+-- Dumping data untuk tabel tabel widget
 --
-
-INSERT INTO `setting_modul` (`id`, `modul`, `url`, `aktif`, `ikon`, `urut`, `level`, `hidden`, `ikon_kecil`, `parent`) VALUES
-('', 'Hotline', 'hotline', 1, 'fa-phone', 15, 4, 0, 'fa-phone', 13);
 
 INSERT INTO `widget` (`id`, `isi`, `enabled`, `judul`, `jenis_widget`, `urut`, `form_admin`, `setting`) VALUES
 ('', 'hotline.php', 1, 'Hotline', 1, 16, 'hotline', '');
